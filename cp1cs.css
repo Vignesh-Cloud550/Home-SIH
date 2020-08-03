@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:  #000000;
+}  
+ul{
+    list-style-type: none ;
+}
+ul li{
+    display: inline-block; 
+    margin-top: 6%; 
+    margin-left: 20px;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer; 
+}
+ul li a:hover{
+    background-image : -webkit-linear-gradient(right, #7b4397,#dc2430);
+    border: none;
+    color: #fff;
+}
+.name{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+} 
+.name h3{
+    background: -webkit-linear-gradient(right, #7b4397,#dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-family: serif;
+
+}
+.AI{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+} 
+.AI h3{
+    background: -webkit-linear-gradient(right, #7b4397,#dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;   ;
+    font-family: serif;
+}
+.box{
+    border: 2px solid rgb(14, 185, 253);
+    box-shadow: 10px 10px 10px blue; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 500px;
+}
+.box h3{
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    position: absolute;
+    background: -webkit-linear-gradient(right, #7b4397,#dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.box p{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    position: absolute;
+    background: -webkit-linear-gradient(right, #7b4397,#dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+} 
+ul li.a a{
+    border-image : -webkit-linear-gradient(right, #7b4397,#dc2430);
+    border-image-slice: 1;
+}
+ul li.b a{
+    border-image : -webkit-linear-gradient(right, #7b4397,#dc2430);
+    border-image-slice: 1;
+}
+ul li.c a{
+    border-image : -webkit-linear-gradient(right, #7b4397,#dc2430);
+    border-image-slice: 1;
+}
+ul li.d a{
+    border-image : -webkit-linear-gradient(right, #7b4397,#dc2430);
+    border-image-slice: 1;
+}
